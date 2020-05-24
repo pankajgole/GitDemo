@@ -56,6 +56,8 @@ public class CalculatorTest {
 		TimeUnit.SECONDS.sleep(3);
 		MobileElement btn_accpt = driver.findElement(By.id("jp.co.rakuten.mobile.rcs:id/accept"));
 		btn_accpt.click();
+		
+		System.out.println("Test Finished");
 	}
 
 }
